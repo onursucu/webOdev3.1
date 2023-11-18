@@ -77,7 +77,14 @@ function App() {
       puan: 1,
       id: 3,
     },
-    
+    {
+      baslik: "HTML mi öğrenmek istiyorsun, HEMEN TIKLA!! ",
+      url: "https://www.w3schools.com/html/html_basic.asp",
+      yazar: "w3",
+      yorum_sayisi: 19,
+      puan: 9,
+      id: 4,
+    },
   ];
 
   const arananYazilar = yaziListesi.filter(function (yazi) {
